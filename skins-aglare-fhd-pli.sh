@@ -1,5 +1,6 @@
 #!/bin/bash
-
+##command=wget --no-check-certificate -O - https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd-pli.sh | /bin/sh
+############
 echo "Removing previous version of Aglare-FHD-PLI..."
 sleep 2
 
@@ -16,7 +17,7 @@ sleep 2
 
 SKINDIR='/usr/share/enigma2/Aglare-FHD-PLI'
 BOXMODEL=$(cat /etc/hostname)
-URL="https://dreambox4u.com/emilnabil237/skins/skins-aglare-fhd-pli.tar.gz"
+URL="https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd-pli.tar.gz"
 FILE="/tmp/skins-aglare-fhd-pli.tar.gz"
 
 cd /tmp || exit
@@ -114,4 +115,5 @@ sleep 2
 echo ">>>>>>>>>Aglare-FHD-PLI Skin by MNASR<<<<<<<"
 sleep 2
 exit 0
+
 
