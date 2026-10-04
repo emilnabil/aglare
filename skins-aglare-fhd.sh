@@ -1,5 +1,5 @@
 #!/bin/bash
-
+##command=wget --no-check-certificate -O - https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd.sh | /bin/sh
 echo "Removing previous version of Aglare-FHD..."
 sleep 2
 
@@ -22,7 +22,7 @@ sleep 2
 
 SKINDIR='/usr/share/enigma2/Aglare-FHD'
 WCDIR='/usr/share/enigma2/Aglare-FHD/main/windowcolor'
-URL="https://dreambox4u.com/emilnabil237/skins/skins-aglare-fhd.tar.gz"
+URL="https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd.tar.gz"
 FILE="/tmp/skins-aglare-fhd.tar.gz"
 
 cd /tmp || exit
@@ -117,4 +117,5 @@ echo ">>>>>>>>>>Aglare-FHD Skin by MNASR<<<<<<<<<<"
 sleep 2
 
 exit 0
+
 
